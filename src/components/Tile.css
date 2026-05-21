@@ -1,0 +1,78 @@
+.tile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: var(--cream);
+  color: var(--ink);
+  border-radius: var(--radius-sm);
+  border: 2px solid var(--cream-dark);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition:
+    transform var(--transition),
+    box-shadow var(--transition);
+}
+
+.tile--sm {
+  width: 4.5rem;
+  min-height: 5.5rem;
+  padding: 0.35rem;
+  font-size: 0.65rem;
+}
+
+.tile--md {
+  width: 5.5rem;
+  min-height: 7rem;
+  padding: 0.5rem;
+  font-size: 0.75rem;
+}
+
+.tile--lg {
+  width: 6.5rem;
+  min-height: 8.5rem;
+  padding: 0.6rem;
+  font-size: 0.8rem;
+}
+
+.tile--characters {
+  border-top: 4px solid #c0392b;
+}
+
+.tile--bamboo {
+  border-top: 4px solid #27ae60;
+}
+
+.tile--dots {
+  border-top: 4px solid #2980b9;
+}
+
+.tile--dragon {
+  border-top: 4px solid #8e44ad;
+}
+
+.tile--wind {
+  border-top: 4px solid #d35400;
+}
+
+.tile__label {
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.tile__value {
+  align-self: flex-end;
+  font-size: 1.4em;
+  font-weight: 700;
+}
+
+.tile__value--dynamic {
+  background: var(--gold);
+  color: var(--ink);
+  border-radius: 50%;
+  width: 1.75em;
+  height: 1.75em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1em;
+  transition: background var(--transition);
+}

@@ -1,0 +1,63 @@
+.landing__header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.landing__actions {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.landing__new-game {
+  font-size: 1.15rem;
+  padding: 1rem 2rem;
+}
+
+.landing__section-title {
+  margin: 0 0 1rem;
+  font-size: 1.25rem;
+}
+
+.landing__empty {
+  margin: 0;
+  opacity: 0.75;
+}
+
+.landing__list { 
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.landing__entry {
+  display: grid;
+  grid-template-columns: 2rem 3rem 1fr auto;
+  gap: 0.75rem;
+  align-items: center;
+  padding: 0.6rem 0.75rem;
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: var(--radius-sm);
+}
+
+.landing__rank {
+  font-weight: 700;
+  color: var(--gold-light);
+}
+
+.landing__initials {
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+.landing__score {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.landing__date {
+  font-size: 0.8rem;
+  opacity: 0.65;
+}

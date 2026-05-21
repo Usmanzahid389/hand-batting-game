@@ -1,0 +1,21 @@
+.pile-badge {
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: var(--radius-sm);
+  padding: 0.75rem 1rem;
+  text-align: center;
+  min-width: 7rem;
+}
+
+.pile-badge__label {
+  display: block;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  opacity: 0.75;
+}
+
+.pile-badge__count {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--gold-light);
+}

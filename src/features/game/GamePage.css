@@ -1,0 +1,60 @@
+.game-page__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.25rem;
+}
+
+.game-page__score {
+  font-size: 1.25rem;
+}
+
+.game-page__score strong {
+  color: var(--gold-light);
+}
+
+.game-page__piles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1.25rem;
+}
+
+.game-page__exhaustion {
+  margin-left: auto;
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+
+.game-page__hand {
+  margin-bottom: 1.25rem;
+}
+
+.game-page__section-title {
+  margin: 0 0 1rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  opacity: 0.85;
+}
+
+.game-page__bet-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.game-page__bet-actions .btn {
+  min-width: 10rem;
+  font-size: 1rem;
+}
+
+@media (max-width: 600px) {
+  .game-page__exhaustion {
+    margin-left: 0;
+    width: 100%;
+  }
+}
