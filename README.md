@@ -2,6 +2,10 @@
 
 A web-based Mahjong tile betting game built. Predict whether the **next** hand’s total will be higher or lower than the current hand, while dragon and wind tile values shift over time.
 
+<img width="1790" height="719" alt="image" src="https://github.com/user-attachments/assets/6dd6535c-3864-47bc-af63-c868a85d5372" />
+<img width="996" height="858" alt="image" src="https://github.com/user-attachments/assets/d264e6f5-fdb7-4956-9b98-5fda04551c46" />
+
+
 ## Setup
 
 ```bash
